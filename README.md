@@ -1,6 +1,12 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+# CARRITO DE COMPRAS
+Hacemos uso del UseContext, UseReduce y useId para 
+practicar y dominar mucho más estos conceptos mediante este proyecto
+de Carrito de Compras donde puedes filtrar, comprar, eliminar y actualizar
+el carrito en base a necesidades del usuario.
+
 
 Currently, two official plugins are available:
 
