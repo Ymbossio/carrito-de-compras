@@ -4,6 +4,7 @@ import Products from './components/Products'
 import Filter from './components/Filter'
 import Footer from './components/Footer'
 import {FilterContext} from './context.Filters.jsx'
+import {Cart} from './Cart.jsx'
 import './App.css'
 
 const UseFilter = () =>{
@@ -30,6 +31,7 @@ function App() {
   return (
     <>
       <h1>🛒 Shopping cart</h1>
+      <Cart />
       <Filter onChange={setFilters}/>
      <Products products={ProductsFilter}/>
      <Footer />
